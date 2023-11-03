@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NbtW2Y2XxfcSQmaULIlgIZP8BIbg7ZWVpdQ+SUGktU8+vprsZn7a7rBMcHTXVt+UpHodXrc9gAgnpnHiU+lNlA==",
+  "dgSpecHash": "vPq7J7cVo+2J+x98vfe8b0+sZWKfn8fnkJq1fS0LoB0DCmXdcQXUcHkJI5tJHHOxDG87oy6e6QFXw4CoEgii2A==",
   "success": true,
   "projectFilePath": "C:\\Users\\losad\\TeamDriver\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\losad\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
     "C:\\Users\\losad\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\losad\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\losad\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
