@@ -28,7 +28,8 @@
 🔰 Genere la entidad de TeamDriver que es generada como un diccionario en el contexto. ✔ <br>
 🔰 Genere el archivo de configuracion de la entidad TeamDriver. ✔ <br>
 🔰 Genere una nueva migracion. ✔ <br>
-🔰 Genere repositorios y metodos crud. ✔ <br>
+🔰 Genere repositorios y metodos crud. ✔
+ <br>
 
 ## Preview project 👣
 ### 1. Queries:
