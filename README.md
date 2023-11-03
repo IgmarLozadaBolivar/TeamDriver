@@ -30,54 +30,71 @@
 🔰 Genere una nueva migracion. ✔ <br>
 🔰 Genere repositorios y metodos crud. ❌ <br>
 
-## Steps to follow 👣
-### 1. Generate token:
+## Preview project 👣
+### 1. Queries:
+<img src="./assets/queries.png">
 
-**Endpoint** `http://localhost:5021/User/token`
+### 2. Diagram-Database: FormulaRace:
+<img src="./assets/diagrama.png">
 
-**Method**: `POST`
+### 3. Data-TablaIntermedia:
+<img src="./assets/tabla_intermedia.png">
 
-**Payload**: 
-`{ "Nombre": "ByBolivar", "Contraseña": "123" }`
+### 4. Data-Tabla: Driver:
+<img src="./assets/tabla_driver.png">
 
-`{ "Nombre": "Admin", "Contraseña": "admin" }`
+### 5. Data-Tabla: Team:
+<img src="./assets/tabla_team.png">
 
-`{ "Nombre": "Empleado", "Contraseña": "empleado" }`
-
-### 2. User registration ✍:
-**Endpoint**: `http://localhost:5272/User/register`
-
-**Method**: `POST`
-
-**Payload**:
-`{ "Usuario": "<YourUsername>", "Contraseña": "<YourPassword>", "CorreoElectronico": "<YourMail>" }`
-
-<p>Esta EndPoint permite a los usuarios registrarse. Es necesario que para usuar los controladores como Empleado, Cliente u otro es necesario generar un token.</p>
-
-### 3. Refresh Token 🔄:
-**Endpoint**: `http://localhost:5272/User/refresh-token`
-
-**Method**: `POST`
-
-**Payload**:
-`{ "Nombre": "<YourUsername>", "Contraseña": "<YourPassword>" }`
-
-<p>Es necesario que el token generado lo valides por medio de la autenticacion de Bearer Token, para poder tener acceso.</p>
-
-### 4. Other queries 🔄:
+### 6. Methods queries basic 🔄:
 **Methods**: `GET`
 
-**Obtener todos los usuarios**: `http://localhost:5272/User`
+**Obtener todos los conductores**: `http://localhost:5131/Driver`
 
-**Obtener usuario por ID**: `http://localhost:5272/User/{id}`
+**Obtener todos los equipos**: `http://localhost:5131/Team`
 
-**Method**: `PUT`
+**Obtener todos los conductores y equipos**: `http://localhost:5131/TeamDriver`
 
-**Actualizar usuario**: `http://localhost:5272/User/{id}`
+**Methods**: `GET x ID`
 
-**Method**: `DELETE`
+**Obtener todos los conductores**: `http://localhost:5131/Driver/{id}`
 
-**Eliminar usuario**: `http://localhost:5272/User/{id}`
+**Obtener todos los equipos**: `http://localhost:5131/Team/{id}`
+
+**Obtener todos los conductores y equipos**: `No Incluye`
+
+**Methods**: `PAGINATION`
+
+**Obtener todos los conductores**: `http://localhost:5131/Driver`
+
+**Obtener todos los equipos**: `http://localhost:5131/Team`
+
+**Obtener todos los conductores y equipos**: `http://localhost:5131/TeamDriver`
+
+**Methods**: `POST`
+
+**Obtener todos los conductores**: `http://localhost:5131/Driver`
+
+**Obtener todos los equipos**: `http://localhost:5131/Team`
+
+**Obtener todos los conductores y equipos**: `http://localhost:5131/TeamDriver`
+
+**Methods**: `PUT`
+
+**Obtener todos los conductores**: `http://localhost:5131/Driver`
+
+**Obtener todos los equipos**: `http://localhost:5131/Team`
+
+**Obtener todos los conductores y equipos**: `http://localhost:5131/TeamDriver`
+
+**Methods**: `DELETE`
+
+**Obtener todos los conductores**: `http://localhost:5131/Driver`
+
+**Obtener todos los equipos**: `http://localhost:5131/Team`
+
+**Obtener todos los conductores y equipos**: `http://localhost:5131/TeamDriver`
+
 
 ## You can help me by Donating 💰
   [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=flat&logo=paypal&logoColor=white)](https://paypal.me/losadabolivar@gmail.com) 
